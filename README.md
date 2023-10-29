@@ -32,7 +32,7 @@
 ## dotnet 7 (segmentation fault)
 
 ```
-> docker buildx build --platform linux/amd64 -t dotnet7 -f Dockerfile.dotnet7 .
+> docker build --platform linux/amd64 -t dotnet7 -f Dockerfile.dotnet7 .
 ```
 
 ```
@@ -70,7 +70,7 @@ ERROR: failed to solve: process "/bin/sh -c dotnet publish --configuration Relea
 ## dotnet 8 (never finishes)
 
 ```
-> docker buildx build --platform linux/amd64 -t dotnet8 -f Dockerfile.dotnet8 .
+> docker build --platform linux/amd64 -t dotnet8 -f Dockerfile.dotnet8 .
 ```
 
 ```

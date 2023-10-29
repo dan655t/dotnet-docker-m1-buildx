@@ -1,1 +1,1 @@
-docker buildx build --platform linux/amd64 -t dotnet7 -f Dockerfile.dotnet7 .
+docker build --platform linux/amd64 -t dotnet7 -f Dockerfile.dotnet7 .
